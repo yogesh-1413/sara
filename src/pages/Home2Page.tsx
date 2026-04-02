@@ -6,6 +6,7 @@ import BackToTopButton from '../componets/BackToTopButton';
 import HowToUseV from '../componets/HowToUseV';
 import NavBar from '../componets/NavBar';
 import TotalUsers from '../componets/TotalUsers';
+import Notworking from './Notworking';
 // Reusable floating icon component
 function FloatingIcon({ children, className }: { children: React.ReactNode; className: string }) {
     return (
@@ -32,7 +33,7 @@ function Home2Page() {
         {
             name: "M Venkat Pavan",
             role: "2nd Year DS",
-            text: "The website is super user-friendly and works great. I love how everything — from subject modules to mental health tips — Everthing has a Perfect Flow. SARA really understands students."
+            text: "The website is super user-friendly and works great. I love how everything — from subject modules to mental health tips — Everything has a Perfect Flow. SARA really understands students."
         },
         {
             name: "G Rukrut Raj",
@@ -44,10 +45,10 @@ function Home2Page() {
     return (
         <>
             <NavBar />
+            {/* <Notworking /> */}
             <div className="min-h-screen bg-gradient-to-b from-[#8494e9] to-white dark:from-[#4c5bd4] to-white transition-colors duration-300 ease-in-out">
                 {/* Hero Section */}
                 <div className="bg-[#8494e9] dark:bg-[#4c5bd4] transition-all duration-300 ease-in-out relative overflow-hidden">
-                    {/* Floating icons */}
                     <FloatingIcon className="top-16 md:top-20 left-1/2 md:left-1/3 dark:text-[#000000]  hover:text-transparent dark:hover:text-transparent duration-2 00 ease-in-out"><Book className="w-10 h-10 md:w-12 md:h-12" /></FloatingIcon>
                     <FloatingIcon className="bottom-24 md:bottom-32 left-1/4 dark:text-[#000000] hover:text-transparent dark:hover:text-transparent duration-200 ease-in-out">
                         <Lightbulb className="w-10 h-10 md:w-12 md:h-12" />
@@ -106,7 +107,7 @@ function Home2Page() {
                 {/* Features Section */}
                 <Features />
         
-                {/* <TotalUsers /> */}
+                <TotalUsers />
 
                 {/* Testimonials Section */}
                 <div className="py-16 md:py-24 bg-white dark:bg-[#1f1f1f] transition-all duration-300 ease-in-out">

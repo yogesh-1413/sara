@@ -3,11 +3,8 @@ import SearchBar from './SearchBar';
 import Sidebar from './SideBar';
 import Footer from '../../../componets/Footer_FIn';
 import PlaylistViewer from '../Feature_2/Ytplay';
-import ModuleDisplay from './ModuleDisplay';
-import Sidebar2 from './Sidebar2';
-import TopicExplainer from './TopicExplainer';
 
-// Full hierarchy: School → Branch → Semester → Subjects
+
 const schoolData: Record<
   string,
   Record<
@@ -15,7 +12,7 @@ const schoolData: Record<
     Record<string, string[]>
   >
 > = {
-  //SCHOOL OF COMPUTING
+  
   'School of Computing': {
     CSE: {
       // '1st Sem': [''],
@@ -24,8 +21,6 @@ const schoolData: Record<
       '4th Sem': ['Artificial-Intelligence[AI]', 'Computer-Networks[CN]', 'Design-Analysis&Algorithms[DAA]', 'Software Engineering[SE]'],
       // '5th Sem': [''],
       '6th Sem': ['Object-Oriented-Modeling-and-Design[OOMD]', 'Artificial-Neural-Networks[ANN]', 'Mobile-Application-Development[MAD]', 'Cyber-Security-Essentials[CSE]'],
-      // '7th Sem': [''],
-      // '8th Sem': [''],
     },
     IT: {
       // '1st Sem': [''],
@@ -34,8 +29,7 @@ const schoolData: Record<
       '4th Sem': ['Data-Mining[DM]', 'Computer-Networks[CN]', 'Design-Analysis&Algorithms[DAA]',],
       // '5th Sem': [''],
       '6th Sem': ['Artificial-Intelligence[AI]', 'Deep-Learning[DL]', 'Distributed-Systems[DS]', 'Software-Testing&QA[STQA]', 'Computer-Architecture&Organization[CAO]'],
-      // '7th Sem': [''],
-      // '8th Sem': [''],
+
     },
     DS: {
       // '1st Sem': [''],

@@ -28,6 +28,7 @@ import ReportIssue from './pages/Footer_Pages/reportAProblem';
 import Sarav1Insights from './pages/Footer_Pages/Sarav1';
 import EditProfile from './pages/AdminPgs/Profile_pages/EditProfile';
 import FAQs from './componets/faq';
+import Not_found from './pages/Not found';
 import FAQ from './componets/faq';
 import UserList from './pages/AdminPgs/Userdata';
 import React from 'react';
@@ -92,7 +93,7 @@ function App() {
         <Route path='/faq' element={<FAQs />} />
         <Route path='/Report' element={<ReportIssue />} />
         <Route path="/Sarav1" element={<Sarav1Insights />} />
-
+        <Route path='*' element={<Not_found/>} />
 
 
 
