@@ -179,7 +179,6 @@ const DynamicSelect: React.FC = () => {
     < div className='bg-gray-200 dark:bg-[#1f1f1f] transition-all duration-300 ease-in-out '>
       <div className='flex max-h-full bg-gray-200 dark:bg-[#1f1f1f] transition-all duration-300 ease-in-out rounded-xl'>
         <div className="flex  gap-4 max-w-full p-5  mx-auto bg-gray-200 shadow-md dark:bg-[#2c2c2c] transition-all duration-300 ease-in-out rounded-xl ">
-          {/* School Select */}
           <label className="block text-black mb-2 dark:text-gray-200 transition-all duration-300 ease-in-out  ">
             Select School
             <select className=" px-2 py-2 border rounded-lg focus:ring-2 focus:ring-[#4F46E5] focus:border-transparent dark:focus:ring-orange-600 dark:bg-[#1f1f1f] dark:text-white transition-all duration-300 ease-in-out"
@@ -201,7 +200,6 @@ const DynamicSelect: React.FC = () => {
             </select>
           </label>
 
-          {/* Branch Select */}
           <label className="block text-black mb-2 dark:text-gray-200 transition-all duration-300 ease-in-out  ">
             Select Branch
             <select className=" px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[#4F46E5] focus:border-transparent dark:focus:ring-orange-600 dark:bg-[#1f1f1f] dark:text-white transition-all duration-300 ease-in-out"

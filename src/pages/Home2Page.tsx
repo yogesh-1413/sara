@@ -87,7 +87,7 @@ function Home2Page() {
                                 </a>
                             </div>
                         </div>
-                        {/* Image */}
+                        
                         <div className="relative">
                             <div className="bg-[#8494e9] dark:bg-[#4c5bd4] transition-all duration-300 ease-in-out  ">
                                 <img
@@ -100,16 +100,13 @@ function Home2Page() {
                     </div>
                 </div>
 
-                {/* Tutorial Section */}
+
                 <HowToUseV />
 
-
-                {/* Features Section */}
                 <Features />
         
                 <TotalUsers />
 
-                {/* Testimonials Section */}
                 <div className="py-16 md:py-24 bg-white dark:bg-[#1f1f1f] transition-all duration-300 ease-in-out">
                     <div className="container mx-auto px-6">
                         <div className="text-center mb-12 md:mb-16">
@@ -134,9 +131,8 @@ function Home2Page() {
                     </div>
                 </div>
 
-                {/* Footer */}
                 <Footer />
-                {/* Back to top button */}
+
                 <BackToTopButton />
             </div>
         </>

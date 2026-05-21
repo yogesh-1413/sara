@@ -1,6 +1,6 @@
 # SARA-AI | Smart Academic Resource Assistant
 
-## 🌐 Live: [https://sara-ai.in](https://sara-ai.in)
+## 🌐 Live: [https://sara-ai-1413.web.app](https://sara-ai-1413.web.app)
 
 ## 🛠 Tech Stack
 - **Frontend**: React, Tailwind CSS, React Router,JS
